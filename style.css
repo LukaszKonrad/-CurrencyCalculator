@@ -7,6 +7,13 @@ html {
     box-sizing: inherit;
 }
 
+.body {
+    background-image: url("money.jpg");
+    background-size: 1400px;
+    background-repeat: no-repeat;
+    background-position: center;;
+}
+
 .form {
     max-width: 400px;
     margin: 0 auto;
@@ -50,4 +57,11 @@ html {
 
 .button:active {
     background-color: rgb(13, 228, 228);
+}
+
+.score {
+    background-color: white;
+    color: teal;
+    font-size: 20px;
+    font-weight: bold;
 }
