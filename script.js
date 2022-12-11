@@ -37,11 +37,7 @@
 
     updateResultText(result, currency);
 
-
-
-
   }
-
 
   const init = () => {
 
