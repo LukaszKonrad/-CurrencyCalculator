@@ -1,4 +1,4 @@
-# -CurrencyCalculator
+# CurrencyCalculator
 
 
 Hello, My name is Łukasz Konrad. I learn frontend and I hope that in future I would work in this job. 
