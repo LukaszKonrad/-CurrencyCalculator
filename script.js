@@ -10,19 +10,27 @@ formElement.addEventListener("submit", (event) => {
   const value = +amount.value;
   const currency = Optional.value;
   
-  let result;  
+  const calculateResult = (value, currency) => {
+  const rateEUR = 4.68;
+  const rateGBP = 5.44;
+  const rateUSD = 4.51;
 
-  switch (currency) {
-    case "EUR" :
-      result = value / 4.68;
-    break;
-    case "GBP" :
-      result = value / 5.44;
-    break;
-    case "USD" :
-      result = value / 4.51;
+    switch (currency) {
+      case "EUR" :
+        return value / rateEUR;
+      
+      case "GBP" :
+        return value / rateGBP;
+      
+      case "USD" :
+        return value / rateUSD;
+  
+    }
+  };
+  
+  const result = calculateResult(value, currency);
 
-  }
+  
   Result.innerText = `${result.toFixed(2)} ${currency}`;
   
 
