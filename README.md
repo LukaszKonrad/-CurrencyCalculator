@@ -11,4 +11,4 @@ I invite you to read and test.
 DEMO:
 
 CODE:
-https://github.com/LukaszKonrad/-CurrencyCalculator.git
+https://github.com/LukaszKonrad/CurrencyCalculator.git
