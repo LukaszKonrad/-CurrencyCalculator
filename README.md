@@ -9,6 +9,7 @@ In this code I show possibilties JS and style css for forms.
 I invite you to read and test.
 
 DEMO:
+https://lukaszkonrad.github.io/CurrencyCalculator/
 
 CODE:
 https://github.com/LukaszKonrad/CurrencyCalculator.git
