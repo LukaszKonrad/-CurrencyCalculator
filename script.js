@@ -1,13 +1,15 @@
-let formElement = document.querySelector(".form");
-let amount = document.querySelector(".form__amount");
-let Optional = document.querySelector(".form__currency");
-let Result = document.querySelector(".result");
+{
+const formElement = document.querySelector(".form");
+const amount = document.querySelector(".form__amount");
+const Optional = document.querySelector(".form__currency");
+const Result = document.querySelector(".result");
 
 formElement.addEventListener("submit", (event) => {
     event.preventDefault();
 
-  let value = +amount.value;
-  let currency = Optional.value;
+  const value = +amount.value;
+  const currency = Optional.value;
+  
   let result;  
 
   switch (currency) {
@@ -25,3 +27,5 @@ formElement.addEventListener("submit", (event) => {
   
 
 })
+
+}
