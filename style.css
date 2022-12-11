@@ -1,0 +1,53 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after ::before {
+    box-sizing: inherit;
+}
+
+.form {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+
+.form__legend {
+    padding: 10px;
+    background-color: teal;
+    color: white
+}
+
+.form__amount {
+    background-color: rgb(229, 228, 228);
+    border: 3px solid red;
+    padding: 5px;
+    max-width: 300px;
+    margin-bottom: 30px;
+}
+
+.form__span {
+    background-color: teal;
+    padding: 10px;
+    color: white;
+}
+
+
+
+.button {
+    width: 100%;
+    border: none;
+    background-color: teal;
+    color: white;
+    padding: 5px;
+}
+
+.button:hover {
+    background-color: rgb(9, 182, 182);
+}
+
+.button:active {
+    background-color: rgb(13, 228, 228);
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Próba z walutami 2</title>
+    <script defer src="script.js"></script>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <form class="form">
+        <fieldset>
+            <legend class="form__legend">PODAJ SWOJĄ KWOTĘ * </legend>
+            <input class="form__amount" type="number" required autofocus>
+            </br>
+            <span class="form__span">WYBIERZ WALUTĘ: * </span>
+            <p><select class="form__currency" name="Wybierz walutę">
+                    <option value="EUR">EUR</option>
+                    <option value="USD">USD</option>
+                    <option value="GBP">GBP</option>
+                </select> </p>
+        </fieldset>
+
+
+        <button class="button">POLICZ WALUTĘ</button>
+        <p>waluta po przeliczeniu to <span class="result">0</span></p>
+    </form>
+
+</body>
+
+</html>
